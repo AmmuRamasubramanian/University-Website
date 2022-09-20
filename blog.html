@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;0,700;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="eduford_img/logo.png"></a>
+                <div class="nav-links" id="NavLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contactUs.html">CONTACT ME</a></li> 
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+           <h1>Our Certificates and Online Programs</h1>
+        </section>
+
+<!---Blog-content-->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="eduford_img/certificate.jpg">
+            <h2>Certifications and online Programs</h2>
+            <p>
+                HubSpot, a growth platform used by big-name companies including Doordash, Subaru, and SurveyMonkey, offers a number of free online certifications through Hubspot Academy. These courses range from content marketing to social media to growth-driven design.
+                However, its Inbound Marketing Certification is one of the most popular offerings. It includes 11 lessons and takes about four and a half hours to complete. With this course, you'll solidify your skills as an inbound marketer, gaining additional knowledge around content strategy, social media promotion, and conversion optimization strategy.
+            </p>
+            <p>
+                Alison is an online learning website that offers free certificate courses from top experts.
+                 It offers more than 1,300 free certifications in a range of topics — everything from software development to law. You can even search course options by “life stages” depending on where you are in your career.
+                Are you a manager, or looking to be promoted to one? Then, Alison's certification in supervision skills is for you. Whether you're a newer manager or have years of experience, this course will help you navigate tricky situations at work. In a span of one to two hours, it will cover 14 different topics to help you become a better team leader and cover strategies to help you resolve team conflict. To get started, create a free account.
+            </p>
+            <p>
+                If you rely on Google Analytics to do your job, you might consider taking some of its free online courses. Options include Google Analytics for Beginners, Advanced Google Analytics, and Google Analytics for Power Users.
+                The Advanced Google Analytics course, for example, is made up of four units that cover a variety of topics, from creating custom metrics to understanding user behavior with event tracking. The idea is to help you analyze website traffic and find ways to continue to grow your audience using new marketing strategies.
+                If you don't use Google Analytics, look into certifications for other tools you use. For instance, Tableau, Salesforce, and Asana offer certification programs — though they may not all be free.
+            </p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your email">
+                    <textarea row="5" placeholder="Leave your comment"></textarea>
+                    <button type="submit" class="visitUs-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Cloud 2.0</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Google Ads Search Certification</span>
+                <span>13</span>
+            </div>
+            <div>
+                <span>HubSpot Inbound Marketing Certification</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Advanced Google Analytics course</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Data Science </span>
+                <span>14</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!---About Us-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Thank you for going through my website.You can keep in touch with us through our various social media platforms</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"></i> by Sowndarya </p>
+</section>
+
+
+
+<!----Javascript for toggle menu-->
+        <script>
+            var navlinks=document.getElementById("NavLinks")
+
+            function showMenu(){
+                navlinks.style.right=0;
+            }
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+
+    </body>
+</html>
